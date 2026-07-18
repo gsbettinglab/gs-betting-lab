@@ -89,3 +89,55 @@ footer {
     color: var(--text-muted);
     margin-top: 40px;
 }
+/* --- Team Form & Analysis Premium Styling --- */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: 25px auto;
+    max-width: 320px;
+    background: #0b0b0b;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #222;
+}
+
+.team-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.team-name {
+    font-weight: bold;
+    font-size: 0.95rem;
+    min-width: 80px;
+    text-align: left;
+}
+
+.badge {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: #000;
+}
+
+/* Form Color Indicators */
+.win { background-color: #00ff66; }   /* Electric Neon Green */
+.draw { background-color: #888888; }  /* Sleek Gray */
+.loss { background-color: #ff3b30; }  /* Hot Red */
+
+.analysis-box {
+    text-align: left;
+    background: #1c1c1c;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+    font-size: 0.95rem;
+    border-left: 4px solid var(--primary);
+}
